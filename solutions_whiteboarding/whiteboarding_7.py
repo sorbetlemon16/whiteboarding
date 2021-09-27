@@ -15,7 +15,6 @@ def print_nums(n=1):
 
     print_nums(n + 1)
 
-
 def max_num(nums, max_n=None):
     if max_n is None and len(nums) > 0:
         max_n = nums[0]
